@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mirador;
+
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/contactbanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    height: 45vh;
+}
+
+.navbar {
+    background-color: transparent !important;
+    padding: 10px 100px;
+    /* Adjust the padding as needed */
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 21px;
+}
+.navbarImg{
+width: 10%;
+}
+.navbarImg img{
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: #545b62;
+}
+
+
+.navbar-toggler {
+    order: 2;
+}
+
+.navbar-collapse {
+    order: 1;
+}
+
+.navbar-brand {
+    order: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+
+}
+
+.main-head {
+    color: white;
+    width: 65%;
+    margin: 0% auto;
+}
+
+.main-head h1 {
+    font-weight: 850;
+    font-size: 68px;
+
+}
+
+p {
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+
+/*contac*/
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 65%;
+    margin: 0% auto;
+}
+
+.contact-main h3 {
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 28.8;
+    color: #141414;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.contact-main p {
+    font-size: 16px;
+    font-family: karla, sans-serif;
+    color: #616161;
+}
+
+.contact-form {
+    width: 35%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.my-btn {
+    padding: 10px 30px;
+    background-color: #00424E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.my-btn:hover {
+    background-color: #00424E;
+}
+
+/* foooter */
+
+.footer {
+    background-color: #FFFFFF;
+    color: #00424e;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    width: 65%;
+    margin: 0%auto;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+
+.column img {
+    max-width: 100px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column a {
+    text-decoration: none;
+    color: #00424e;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+.column-4{
+    max-width: 370px;
+}
+@media screen and (min-width: 280px) and (max-width:450px) {  
+    .navbar {
+        background-color: transparent !important;
+        padding: 20px;
+    }
+    header {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/contactbanner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        height: 50vh;
+    }
+    
+    .navbar {
+        background-color: transparent !important;
+        padding: 10px 100px;
+    }   
+    .navbar-light .navbar-nav .nav-link.disabled {
+        color: #545b62;
+    }
+ 
+    
+    .content {
+        display: flex;
+        align-items: center;
+        height: 40vh;
+    
+    }
+    
+    .main-head {
+        color: white;
+        width: 65%;
+        margin: 0% auto;
+    }
+    
+    .main-head h1 {
+        font-weight: 850;
+        font-size: 50px;
+    
+    }
+    
+    p {
+        padding: 0;
+        margin-bottom: 0 !important;
+    }
+    .contact-form {
+        width: 78%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .footer {
+        background-color: #FFFFFF;
+        color: #00424e;
+        display: block;
+        justify-content: space-around;
+        padding: 20px 0;
+        width: 65%;
+        margin: 0%auto;
+    }
+    
+}   
